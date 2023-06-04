@@ -1,0 +1,103 @@
+/* Font */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+/* Background */
+body {
+  background-color: none;
+}
+
+header, nav, section, footer {
+  background-color: rgba(46, 56, 57, 0.08);
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+/* Margin */
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Anchor Layout */
+a {
+  color: #2d3b3c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+/* List Layout */
+ul {
+  list-style-type: none;
+}
+
+/* Borders */
+section {
+  border: 0px solid #cccccc;
+  border-radius: 5px;
+}
+
+footer {
+  border-top: 0px solid #cccccc;
+}
+
+/* Padding */
+header, nav, section, footer {
+  padding: 20px;
+}
+
+/* Hover Effects */
+a:hover {
+  color: #bfc0fb;
+  text-decoration: underline;
+}
+
+/* Display */
+.navbar li {
+  display: inline;
+  display: inline-block;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Positioning */
+.dropdown {
+  position: relative;
+}
+
+/* Navigation Dropdown Design */
+.dropdown-content a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.dropdown-content a:hover {
+  background-color: #6cdee3;
+}
